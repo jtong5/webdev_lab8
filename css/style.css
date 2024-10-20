@@ -3,6 +3,12 @@
   overflow: hidden; 
 }
 
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
 #main-navbar ul {
   list-style-type: none;
   margin: 0;
@@ -53,4 +59,8 @@
 
 #sidebar ul li a:hover {
   background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
 }
